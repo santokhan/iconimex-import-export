@@ -1,0 +1,17 @@
+/* .hero-button::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.hero-button:hover::before {
+    border: 2px solid transparent;
+    transition: all;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+} */
