@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import PLayout from "../products/layout/PLayout";
 import PHeader, { PTitle, PIcon, PDes } from "../products/layout/PHeader";
-import PTabs, { Tab } from "../products/layout/PTabs";
 import PMain from "../products/layout/PMain";
-import PCard, { CImg, CTitle, CDes } from "../products/layout/PCard";
 
 export default function Gallary() {
   const [src, setsrc] = useState(0);
@@ -49,7 +47,7 @@ export default function Gallary() {
             onClick={() => {
               setlimit(12);
             }}
-            className="text-white bg-blue-600 hover:bg-blue-800 font-medium text-sm px-5 py-2.5 rounded-xl focus:bottom-[3px] focus:right-1 shadow-xl focus:shadow-none transition-all ease-in"
+            className="text-white bg-green-700 hover:brightness-90 focus:ring-4 focus:outline-none focus:ring-green-900 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
           >
             View more
           </button>
@@ -61,7 +59,7 @@ export default function Gallary() {
             onClick={() => {
               setlimit(6);
             }}
-            className="text-white bg-blue-600 hover:bg-blue-800 font-medium text-sm px-5 py-2.5 rounded-xl focus:bottom-[3px] focus:right-1 shadow-xl focus:shadow-none transition-all ease-in"
+            className="text-white bg-green-700 hover:brightness-90 focus:ring-4 focus:outline-none focus:ring-green-900 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
           >
             View less
           </button>
@@ -96,13 +94,16 @@ export function ZoomView({ src, setsrc, children }) {
               }
             }}
           >
-            <i class="fa fa-angle-left text-4xl" aria-hidden="true"></i>
+            <i
+              class="fa fa-angle-left text-2xl lg:text-4xl"
+              aria-hidden="true"
+            ></i>
           </button>
           {src ? (
             <img
               src={`/images/gallary/${src}.jpeg`}
               alt="products"
-              className="w-full max-h-[50vh] object-contain"
+              className="w-3/4 lg:w-full h-60 sm:h-auto max-h-[50vh] object-contain"
             />
           ) : (
             ""
@@ -115,7 +116,10 @@ export function ZoomView({ src, setsrc, children }) {
               }
             }}
           >
-            <i class="fa fa-angle-right text-4xl" aria-hidden="true"></i>
+            <i
+              class="fa fa-angle-right text-2xl lg:text-4xl"
+              aria-hidden="true"
+            ></i>
           </button>
         </div>
       </div>

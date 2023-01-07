@@ -71,7 +71,7 @@ export default function Navbar({ children }) {
                 </svg>
               </button>
               <ul className="bg-white px-4 py-4 hidden absolute left-full top-0 dropdown-child-2 whitespace-nowrap">
-                <DropdownItem path="/#vehicle">
+                <DropdownItem path="/#construction">
                   construction machinery
                 </DropdownItem>
                 <DropdownItem path="/#industrial">

@@ -89,11 +89,11 @@ export default function Vehicles() {
             </PCard>
             <PCard category={2}>
               <CImg src="images/products/vehicles/mercedes.png"></CImg>
-              <CTitle>mercedes</CTitle>
+              <CTitle>automobiles</CTitle>
               <CDes>
-                Mercedes-Benz AG uses cookies for various purposes. We want to
-                ensure optimum use of our website for you, and also to
-                continually improve our website.
+                An automobile is a motor vehicle with wheels. Most definitions
+                of cars say that they run primarily on roads, seat one to eight
+                people, have four wheels, and mainly transport people
               </CDes>
             </PCard>
             <PCard category={3}>
@@ -106,10 +106,13 @@ export default function Vehicles() {
             </PCard>
             <PCard category={2}>
               <CImg src="images/products/vehicles/volkswagen.png"></CImg>
-              <CTitle>volkswagen</CTitle>
+              <CTitle>electric cars</CTitle>
               <CDes>
-                Volkswagen, abbreviated as VW, is a German motor vehicle
-                manufacturer headquartered in Wolfsburg, Lower Saxony, Germany.
+                An electric car is an automobile that is propelled by one or
+                more electric motors, using only energy stored in batteries.
+                Compared to internal combustion engine (ICE) vehicles, electric
+                cars are quieter, have no exhaust emissions, and lower emissions
+                overall.
               </CDes>
             </PCard>
           </PMain>

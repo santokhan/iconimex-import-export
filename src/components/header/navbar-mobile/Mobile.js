@@ -131,7 +131,7 @@ export default function MobileMenu() {
                     </button>
                     {dropImport ? (
                       <ul className="bg-white px-4">
-                        <NavItem path="/#vehicle">
+                        <NavItem path="/#construnction">
                           construction machinery
                         </NavItem>
                         <NavItem path="/#industrial">

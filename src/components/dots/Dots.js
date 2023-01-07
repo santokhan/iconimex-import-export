@@ -14,112 +14,112 @@ export default function Dots({ num = 6 }) {
             cy="14"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="29"
             cy="50"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="40"
             cy="86"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="51"
             cy="122"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="62"
             cy="14"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="73"
             cy="50"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="84"
             cy="86"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="95"
             cy="122"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="106"
             cy="14"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="117"
             cy="50"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="128"
             cy="86"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="139"
             cy="122"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="150"
             cy="14"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="161"
             cy="50"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="172"
             cy="86"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
           <circle
             cx="183"
             cy="122"
             r="8"
             // fill="#a855f7"
-            className="fill-purple-500 hover:fill-purple-700"
+            className="fill-green-700 hover:fill-green-900"
           />
         </g>
         <defs>

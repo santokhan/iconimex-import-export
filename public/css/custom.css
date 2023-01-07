@@ -83,23 +83,45 @@ html {
 }
 
 .slide-1 {
-    background-image: url("/images/slider/1.png");
+    background-image: url("/images/slider/576/port.png");
 }
 
 .slide-2 {
-    background-image: url("/images/slider/2.png");
+    background-image: url("/images/slider/576/excavator.png");
 }
 
 .slide-3 {
-    background-image: url("/images/slider/3.png");
+    background-image: url("/images/slider/576/industrial.png");
 }
 
 .slide-4 {
-    background-image: url("/images/slider/4.png");
+    background-image: url("/images/slider/576/workshop.png");
 }
 
 .slide-5 {
-    background-image: url("/images/slider/5.png");
+    background-image: url("/images/slider/576/agri.png");
+}
+
+@media (min-width: 576px) {
+    .slide-1 {
+        background-image: url("/images/slider/1.png");
+    }
+
+    .slide-2 {
+        background-image: url("/images/slider/2.png");
+    }
+
+    .slide-3 {
+        background-image: url("/images/slider/3.png");
+    }
+
+    .slide-4 {
+        background-image: url("/images/slider/4.png");
+    }
+
+    .slide-5 {
+        background-image: url("/images/slider/5.png");
+    }
 }
 
 .hero-button {
@@ -294,6 +316,7 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-height: 576px;
 }
 
 /* /contact */
