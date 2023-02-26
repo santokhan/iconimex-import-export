@@ -1,2 +1,2 @@
-# iconimex.com
-[iconimex](http://iconimex.com)
+# ICOn
+[ICOnimex](http://iconimex.com)
